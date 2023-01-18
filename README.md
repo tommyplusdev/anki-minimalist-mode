@@ -1,5 +1,5 @@
-# anki-minimalist-theme
-a minimalist theme for anki
+# anki-minimalist-mode
+handpicked plugins & designed minimalist theme for anki
 
 <img width="500" alt="CleanShot 2023-01-18 at 02 03 10@2x" src="https://user-images.githubusercontent.com/116316499/213111860-d981f653-5ce3-4926-ab79-25aa853e4f2f.png">
 
