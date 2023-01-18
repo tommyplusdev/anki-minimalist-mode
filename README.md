@@ -32,3 +32,8 @@ Think of them as Sticky Notes to help you memorise small bits of info.
 These first three card types are designed to force you to actively recall information, while the last one is meant to help you passively recall for difficult concepts that you don't entirely understand.
 
 All card presentation are thoughtfully designed for its content.
+
+## Requirements
+- `night-mode` or Dark Mode is enabled in your Anki preferences.
+> This is a dark-mode only theme.
+- Anki >= 2.1.55
