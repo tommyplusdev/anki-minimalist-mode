@@ -4,7 +4,7 @@ a minimalist theme for anki
 <img width="500" alt="CleanShot 2023-01-18 at 02 03 10@2x" src="https://user-images.githubusercontent.com/116316499/213111860-d981f653-5ce3-4926-ab79-25aa853e4f2f.png">
 
 
-This Anki package helps you focus on the content by reducing visual distractions, improving accessibility, and adding features that enhance your overall experience.
+This Anki package helps you focus on the content by simplifying the UI, improving accessibility, and adding features that enhance your overall experience.
 
 It makes use of the following plugins:
 - Custom Background Image and Gear Icon (to style CSS)
