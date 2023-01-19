@@ -18,12 +18,30 @@ It also includes the following **card types**:
 
 1. `qa Question Answer`
 > Question and Answer (Q&A) type cards.
+<details>
+  <summary> 🪧 Recommended Usage & Preview </summary>
+  Your bread and butter cards. Write exactly one question and answer. This forces you to keep your cards as simple as possible.
+  
+  ![](https://user-images.githubusercontent.com/116316499/213331779-b0dbb69d-bb2f-41d1-a34e-399f18685313.gif)
+
+</details>
 
 2. `Cloze Programming`
 > Fill-in-blanks type cards for learning programming concepts and syntax.
+<details>
+  <summary> Recommended Usage & Preview </summary>
+
+</details>
 
 3. `Cloze Enhanced`
 > Same as Cloze, but but with a Subject and Title field to help organise your cards.
+
+<details>
+  <summary> Recommended Usage & Preview </summary>
+
+</details>
+
+
 
 4. `Basic Enhanced`
 > Same as Basic, but with a Subject and Title field to help organise your cards.
