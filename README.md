@@ -87,7 +87,8 @@ For other devices that use Anki: if this is popular enough, I may look into deve
 1210908941 385888438 1933645497 876946123 1771074083 511710206
 ```
 
-3. Drag and Drop the the plugin folder (`1210908941`) into your Anki Plugins folder & overwrite the CSS files. 
+3. In the same Add-on Menu, click View Files. This brings you to the general Anki Plugin Folder. <br>
+Drag and Drop the the plugin folder (`1210908941`) into your Anki Plugins folder & overwrite the CSS files. 
 > ⚠️ As with anything data-related, be sure to make a backup of your entire Anki Plugins folder.
 
 4. Open Anki Preferences and change the UI Scaling to what you prefer. I recommend having a scaling of `135%`.
