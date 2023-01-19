@@ -1,0 +1,147 @@
+/* control the border-radius of the highlighted menu item */
+:root.night-mode {
+	--border-radius-large: 18px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #2b2b2b;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #767676;
+  border-radius: 10px;
+}
+
+/* + symbol for nested decks  */
+a.collapse {
+		color: #AEF745;
+		/* font-weight: 600; */
+		/* color: orange; */
+		font-weight: 700;
+}
+
+.learn-count {
+	color: #FF9469;
+	color: #FE5B5B;
+}
+
+.review-count {
+	color: #A5FF75;
+}
+
+.new-count {
+	color: #42FFE3;
+}
+
+a.deck {
+	text-underline-offset: 3px;
+	text-decoration-thickness: 7px;
+}
+
+
+a.deck,
+th {
+	font-family: "Inter", "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 500;
+}
+
+th {
+	text-transform: lowercase;
+	color: #757575;
+}
+
+/* imported from deck browser */
+/* transparent deck list */
+table {
+	background: transparent;
+  /*anki .54*/
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+/* center everything on the main screen */
+html {
+	min-height: 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+body {
+  /* display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh !important; */
+  background: #121212 !important;
+}
+
+/* background color for the entire main screen */
+body.isMac.nightMode.night_mode.macos-dark-mode,
+center#outer {
+  background: #121212 !important;
+}
+
+/* buttons  */
+.night_mode .hm-btn {
+	background: #121212 !important;
+}
+.night_mode .hm-btn:hover {
+	background: #aef745 !important;
+}
+
+button {
+    box-sizing: border-box !important;
+    font-family: "Untitled Sans", "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-weight: 400;
+    max-height: 5rem;
+    max-width: 5rem;
+    font-size: 14px;
+    /* border: solid 1px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 8px; */
+    border-radius: 50% !important;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    /* margin: 2px 6px 6px !important; */
+    background: #1e1e1e !important;
+    border: none !important;
+}
+
+button:hover {
+  background: #aef745 !important;
+  color: black !important;
+}
+button:focus {
+  border: 1px solid #aef745 !important;
+}
+
+/* .heatmap {
+  padding: 15px;
+  background: #1e1e1e;
+  border-radius: 20px;
+  overflow: hidden;
+} */
+
+/* review heatmap add-on */
+.heatmap {
+  padding: 2rem;
+  /* background: #1e1e1e; */
+	background: transparent;
+	border: 1px solid #252525;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.streak {
+	display: none;
+}
+
+/* make the review heatmap disappear when window is too small */
+@media screen and (max-width: 44.6875em) {
+	.heatmap {
+		display: none !important;
+	}
+}

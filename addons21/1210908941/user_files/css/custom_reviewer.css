@@ -1,0 +1,8 @@
+body {
+  background: #121212 !important;
+}
+
+
+.icon-button[disabled].svelte-zmy5ws, .icon-button[disabled].svelte-zmy5ws:hover {
+  background-color: none !important;
+}

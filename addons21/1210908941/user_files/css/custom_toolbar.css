@@ -1,0 +1,42 @@
+/* top toolbar elements */
+.hitem {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-family: "Helvetica Neue";
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+.hitem:hover {
+  color: #aef745 !important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 7px;
+}
+
+.hitem.full-sync {
+  color: #ff5b5b;
+}
+
+/* make top toolbar black & beautify it */
+
+#outer{
+  background: #121212 !important;
+}
+
+td.tdcenter,
+.hitem {
+  /* background: #1e1e1e !important; */
+  background: #121212 !important;
+}
+
+table#header {
+  border: none !important;
+}
+
+td.tdcenter {
+  border: none !important;
+}
+
+table {
+  margin-top: 3px !important;
+}

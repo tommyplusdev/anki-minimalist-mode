@@ -1,0 +1,113 @@
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #2b2b2b;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #767676;
+  border-radius: 10px;
+}
+
+/* buttons */
+.night_mode .hm-btn {
+	background: #1e1e1e !important;
+}
+.night_mode .hm-btn:hover {
+	background: #aef745 !important;
+}
+
+button {
+    box-sizing: border-box !important;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-weight: 500;
+    height: 8rem;
+    width: 8rem;
+    font-size: 0.8rem !important;
+    /* border: solid 1px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 8px; */
+    border-radius: 50% !important;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    /* margin: 2px 6px 6px !important; */
+    background: #1e1e1e !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+button:hover {
+  background: #aef745 !important;
+  color: black !important;
+}
+
+button:focus {
+  border: 2px dotted #aef745 !important;
+}
+
+/* stats color */
+.night-mode .learn-count {
+	color: #FF9469;
+	color: #FE5B5B;
+}
+
+.night-mode .review-count {
+	color: #A5FF75;
+}
+
+.night-mode .new-count {
+	color: #42FFE3;
+}
+
+/* typography */
+td,
+h3,
+span {
+	font-family: "Inter";
+	font-weight: 600;
+}
+
+td {
+	color: #757575;
+	text-transform: lowercase;
+}
+
+/* html.night-mode {
+	min-height: 100%;
+	display: flex !important;
+	justify-content:center !important;
+	align-items: center !important;
+} */
+
+
+/* position elements centered */
+td[valign="top"] {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #121212 !important;
+}
+
+
+
+/* get rid of empty heatmap add-on on deck overview screen */
+.rh-container {
+  display: none !important;
+}

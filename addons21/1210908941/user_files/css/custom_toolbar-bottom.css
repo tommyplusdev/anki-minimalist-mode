@@ -1,0 +1,166 @@
+/* remove top border from new anki 2.1.55+ styling */
+table {
+  border-top: none !important;
+}
+
+/* bottom toolbar background */
+table#outer {
+    border-top: none !important;
+    background: #121212 !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important; */
+}
+
+.nightMode #outer {
+  border-top-color: #121212 !important;
+}
+
+
+/* All buttons at the bottom of the review screen
+   (including the "Edit" and "More" button) */
+
+button {
+    box-sizing: border-box !important;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-weight: 500;
+    height: 6rem;
+    width: 6rem;
+    font-size: 0.7rem !important;
+    border-radius: 50% !important;
+    outline: none;
+    cursor: pointer;
+    background: #1e1e1e !important;
+    border: none !important;
+    text-transform: lowercase;
+}
+
+button:hover {
+  background: #aef745 !important;
+  color: black !important;
+}
+
+button:focus {
+  border: 1px solid #aef745 !important;
+}
+
+button span {
+  color: white;
+}
+
+button:hover {
+  background: #aef745 !important;
+  color: black !important;
+}
+
+button:focus {
+  border: 1px solid #aef745;
+}
+
+
+/* the "Show Answer" button */
+#ansbut {
+    height: 6rem;
+    width: 360px !important;
+    border-radius: 8px !important;
+    /* margin-top: 1rem; */
+}
+
+/* All rating buttons */
+/* #middle button {
+    width: 96px;
+    color: white;
+} */
+
+/* the "Good" button */
+#defease {
+    height: 6rem;
+    width: 174px !important;
+    border-radius: 8px !important;
+    /* margin-top: 1rem; */
+}
+
+/* the "Again" button */
+button[onclick*="ease1"]:not(#defease) {
+    height: 6rem;
+    width: 174px !important;
+    border-radius: 8px !important;
+    /* margin-top: 1rem; */
+}
+
+button[onclick*="ease1"]:not(#defease):hover{
+  background: #F79539 !important;
+}
+button[onclick*="ease1"]:not(#defease):focus{
+  border: 1px solid #F79539 !important;
+}
+
+/* the "Hard" button */
+/* button[onclick*="ease2"]:not(#defease) {
+    background-color: #455A64 !important;
+} */
+
+/* the "Easy" button */
+/* button[onclick*="ease3"]:not(#defease),
+button[onclick*="ease4"]:not(#defease) {
+    background-color: #03A9F4 !important;
+} */
+
+/* the "Edit" button */
+/* button[onclick*="edit"] {
+} */
+
+/* the "More" button */
+/* button[onclick*="more"] {
+} */
+
+
+/* More Button */
+tr > td.stat:last-child > button:hover {
+  background: #DD71F9 !important;
+  color: #181002 !important;
+  /* background: #00FFB9 !important; */
+}
+
+tr > td.stat:last-child > button:focus {
+  border: 1px solid #DD71F9 !important;
+  /* border: 1px solid #00FFB9 !important; */
+}
+
+/* Edit Button */
+td.stat:first-child > button:hover {
+  background: #5ED7F7 !important;
+  /* background: #3900FF !important;
+  color: white !important; */
+}
+
+td.stat:first-child > button:focus {
+  border: 1px solid #5ED7F7 !important;
+  /* border: 1px solid #3900FF !important; */
+}
+
+
+/* center all buttons */
+tr {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+/* remove edit and more buttons when window is too small */
+
+@media screen and (max-width: 585px) {
+  td.stat {
+    display: none !important;
+  }
+  #ansbut {
+    width: 95vw !important;
+  }
+  button[onclick*="ease1"]:not(#defease) {
+      width: 45vw !important;
+  }
+  #defease {
+      width: 45vw !important;
+  }
+}
