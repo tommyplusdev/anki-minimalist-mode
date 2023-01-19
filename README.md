@@ -49,6 +49,7 @@ It also includes the following **card types**:
 
 3. `Cloze Enhanced`
 > Same as Cloze, but but with a Subject and Title field to help organise your cards.
+> 
 > This is an alternative way to write down a flashcard, similar to the Q&A type card. It's a second option in case you can't think of a question, or don't think a question would be a good way for you to recall something.
 
 <details>
@@ -69,7 +70,7 @@ These first three card types are designed to force you to actively recall inform
 All card presentation are carefully designed for its content, be it a mix of images, text and code.
 
 ## Requirements
-- A PC
+- Windows / Mac / Linux version of Anki
 - `night-mode` or Dark Mode is enabled in your Anki preferences.
 > This is a dark-mode only theme.
 - Anki >= 2.1.55
