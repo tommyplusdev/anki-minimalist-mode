@@ -4,7 +4,7 @@ table {
 }
 
 /* bottom toolbar background */
-table#outer {
+table {
     border-top: none !important;
     background: #121212 !important;
     /* display: flex;
