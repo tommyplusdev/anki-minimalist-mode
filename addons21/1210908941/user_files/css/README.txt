@@ -1,1 +1,1 @@
-The files in this folder are blank so that you can add your own css. The original css files are located 2 folder levels back in the "sources" folder
+Custom CSS Injected into the Custom Background Image and Gear Icon add-on.
