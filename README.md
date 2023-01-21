@@ -5,7 +5,7 @@ thoughtfully designed minimalist theme, cards and curated plugins for anki
 
 This Anki package helps you focus on the content by simplifying the UI, improving touch accessibility, and adding features that enhance your overall experience.
 
-Notably, it makes gives you easy templates that simplify your Anki cards, visually and content-wise.
+Most importantly, it gives you easy templates that simplify your Anki card creation and presents them in a clear, focused way.
 
 ## About
 It makes use of the following plugins:
@@ -27,8 +27,6 @@ It also includes the following **card types**:
   <summary> <strong> 🖼️ Preview </strong> </summary>
 <img width="1652" alt="qa1" src="https://user-images.githubusercontent.com/116316499/213340551-76e50503-842b-4c28-8c12-36d3e8dc4050.png">
 <img width="1649" alt="qa2" src="https://user-images.githubusercontent.com/116316499/213340552-dd08635a-75c3-40c5-ba79-50f77c4c77d1.png">
-
-
 </details>
 
 2. `Cloze Programming`
@@ -107,7 +105,7 @@ While in the Card Editor, here's three basic things to know:
 🖥️ Windows Users: Replace <kbd>CMD</kbd> with <kbd>CTRL</kbd>
 
 ### This HTML is syntactically incorrect!
-I know, but, this makes use of the default Anki hotkeys to make your life easier.
+I know, but, this makes use of the default Anki formatting hotkeys to make your life easier.
 
 ## What do the Plugins do?
 - Custom Background Image and Gear Icon
