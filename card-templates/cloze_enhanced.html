@@ -1,0 +1,64 @@
+<!-- Front Side -->
+<div class="wrapper">
+	<div id="title">
+		{{Title}}<br>
+	</div>
+	<div id="type">{{Subject}} / cloze</div>
+<hr><br>
+	<div id="text">
+	{{cloze:Text}}
+	</div>
+</div>
+
+<script>
+// Replace "Javascript" with "JavaScript"
+// document.getElementById("type").innerHTML = document.getElementById("type").innerHTML.replace("Javascript", "JavaScript");
+
+document.querySelector("#ansbut").addEventListener(click, document.querySelectorAll(".cloze").style.backgroundColor = "#80d8ff");
+
+</script>
+
+<!-- Back Side -->
+<div class="wrapper">
+	<div id="title">{{Title}}</div><br>
+	<div id="type">{{Subject}} / cloze</div>
+    <hr><br>
+	<div id="text">
+		{{cloze:Text}} <hr id="answer"> <br>
+        <div id="backExtra" class="backExtraBlock">{{Back Extra}}</div>
+    </div>
+</div>
+
+<script>
+    let backExtra = document.getElementById('backExtra');
+    let answer = document.getElementById('answer');
+    let backExtraBlockCode = document.querySelectorAll('.backExtraBlock i');
+    
+    if (!backExtra.textContent) {
+        answer.classList.add('hidden');
+        backExtra.classList.add('hidden');
+    }
+    
+    if (backExtra.getElementsByTagName("img").length > 0) {
+          answer.classList.remove('hidden');
+            backExtra.classList.remove('hidden');
+            backExtra.style.padding = '0';
+            backExtra.style.backgroundColor = 'transparent';
+            backExtra.style.maxWidth = '45rem';
+            backExtra.style.margin = '0';
+    }
+    
+    if (backExtra.getElementsByTagName("img").length > 0 && backExtra.textContent) {
+            backExtra.style.backgroundColor = '#333333';
+            backExtra.style.padding = '1.7rem';
+            backExtra.style.color = 'white';
+            for (let i = 0; i < backExtraBlockCode.length; i++) {
+                backExtraBlockCode[i].style.background = 'white';
+                backExtraBlockCode[i].style.color = 'black';
+            }
+    }
+    
+    // Replace "Javascript" with "JavaScript"
+    // document.getElementById("type").innerHTML = document.getElementById("type").innerHTML.replace("Javascript", "JavaScript");
+    
+    </script>

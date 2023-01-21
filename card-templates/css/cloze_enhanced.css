@@ -1,0 +1,200 @@
+/*dark mode*/
+.night-mode ::-webkit-scrollbar {
+    width: 0.5em !important;
+    background-color: transparent;
+  }
+  
+  .backExtraBlock {
+      font-family: "JetBrains Mono NL", Consolas,Menlo,Monaco,monospace;
+      font-size: 0.9rem !important;
+      line-height: 1.2 !important;
+      font-weight: 400;
+      background-color: #c6ff00;
+      color: black;
+      text-align: left;
+      border-radius: 6px;
+      max-width: 35rem;
+      margin: 0 auto;
+      padding: 1.7rem;
+  }
+  
+  .hidden {
+      display: none !important;
+      visibility: hidden;
+  }
+  
+  hr#answer {
+      margin-top: 2rem;
+  }
+  
+  html {
+      min-height: 100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }
+  
+  .night_mode i {
+      font-family: "JetBrains Mono NL", 				Consolas,Menlo,Monaco,monospace;
+  
+    /* regular */
+          /* color: #D7FF4A !important; */
+          /* background: #6b57ff; */
+      
+    color: black;
+    background: white;
+    font-weight: 500;
+    font-style: normal;
+    font-size: clamp(0.8125rem, 2.5vw, 0.934375rem);
+    margin: 0 -.05em;
+    padding: .2em .3em;
+    border-radius: .13em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  
+  
+  /* if <i> code is inside of cloze */
+  .night_mode .cloze:nth-of-type(n) i {
+    font-family: "JetBrains Mono NL", 				Consolas,Menlo,Monaco,monospace;
+    color: black;
+    background: none;
+    font-weight: regular;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-box-decoration-break: none;
+    box-decoration-break: none;
+  }
+  
+  /* if <i> element is inside extra block */
+  
+  .night_mode .backExtraBlock i {
+      background: #333333;
+      color: white;
+      /* line-height: 1.4rem; */
+      line-height: 2rem;
+  }
+  
+  .night_mode #title, 
+  .night_mode h2 {
+      color: white;
+  }
+  body {
+     background: #121212 !important;
+  }
+  
+  .night_mode b {
+      color: #aef745;
+  }
+  
+  .night_mode hr {
+      background-color: rgba(255, 255, 255, 0.12) !important;
+  }
+  
+  .night_mode code {
+    background-color:#1e293d
+  }
+  
+  .night_mode .wrapper {
+    box-sizing: border-box !important;
+    margin-top: 1rem;
+    background: #1e1e1e;
+    padding: 3.5rem 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .night_mode . {
+  background-color: black;
+  }
+  
+  .night_mode .cloze:nth-of-type(n) {
+    color: black;
+    background: #C6FF00;
+    font-weight: regular;
+    font-style: normal;
+    margin: 0 -.05em;
+    padding: .2em .3em;
+    border-radius: .13em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  
+  #type {
+      font-size: 0.8rem;
+      text-align: right;
+  }
+  
+  .card {
+    font-family: "Untitled Sans", "Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif;
+	font-weight: 300;
+	font-weight: 400;
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    text-align: left;
+	color: #3a3a3a;
+	width: 45rem;
+	margin: 0 auto;
+	line-height: 1.5rem;
+    padding: 1rem;
+	hyphens: auto;
+}
+  
+  #text {
+   line-height: 2.75rem !important;
+  }
+  
+  .cloze:nth-of-type(n) {
+      color: white;
+      background: #666666;
+      padding: 0.35rem 0.25rem;
+      font-weight: 500; 
+  }
+  
+  
+  #title {
+    font-family: "Tiempos Headline", "iA Writer Quattro V", "Baskerville", "Garamond", serif;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    /* font-size: 1.72812rem; */
+    font-weight: 400;
+    color: #2e2e2e;
+  }
+  
+  img {
+      /* padding: 0 1rem !important; */
+      display: block;
+      margin: 0 auto;
+      border-radius: 8px;
+  }
+  
+  /* Additional styling */
+  em {
+      font-weight: bold;
+  }
+  
+  u {
+      text-underline-offset: 3px;
+      text-decoration-thickness: 7px;
+  }
+  
+  b {
+      font-weight: 500;
+  }
+  
+  strong {
+      color: #fff;
+  }
+  
+  @media screen and (max-width: 525px) {
+      #type {
+          text-align: left;
+          margin: 1.15rem 0;
+      }
+  }
+  
+  @media screen and (max-width: 45em) {
+      .card {
+          max-width: 45rem;
+      }
+  }
+  

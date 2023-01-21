@@ -1,0 +1,138 @@
+/* dark mode */
+.night_mode #title, 
+.night_mode h2 {
+	color: white;
+}
+
+html {
+	min-height: 100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.night-mode ::-webkit-scrollbar {
+  width: 0.5em !important;
+  background-color: transparent;
+}
+
+body {
+   background: #121212 !important;
+}
+.night_mode i {
+	font-family: "JetBrains Mono NL", Consolas,Menlo,Monaco, monospace !important;
+
+	/* alt style: light green */
+	/* color: #D7FF4A !important;*/
+	/* background: #6b57ff; */
+
+	color: black;
+	background: white;
+
+	/* background: #c6ff00; alt style : another light green*/
+
+	font-weight: 500;
+	font-style: normal;
+	font-size: clamp(0.8125rem, 2.5vw, 0.934375rem);
+    margin: 0 -.05em;
+    padding: .2em .3em;
+    border-radius: .13em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.night_mode b {
+	color: #aef745;
+}
+
+.night_mode .wrapper {
+    box-sizing: border-box !important;
+    /* margin-top: 5rem; */
+    background: #1e1e1e;
+    padding: 3.5rem 1.5rem;
+    border-radius: 8px;
+	display: block;
+}
+
+.text {
+  line-height: 2.75rem !important;
+}
+
+.night_mode code {
+    background-color:#1e293d
+}
+
+.night_mode . {
+    background-color: black;
+}
+
+.night_mode hr {
+	background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+#type {
+	font-size: 0.8rem;
+	text-align: right;
+}
+
+.card {
+    font-family: "Untitled Sans", "Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif;
+	font-weight: 300;
+	font-weight: 400;
+    font-size: clamp(1rem, 2.5vw, 1.15rem);
+    text-align: left;
+	color: #3a3a3a;
+	width: 45rem;
+	margin: 0 auto;
+	line-height: 1.5rem;
+    padding: 1rem;
+	hyphens: auto;
+}
+
+
+#title {
+	font-family: "Tiempos Headline", "iA Writer Quattro V", "Baskerville", "Garamond", serif;
+    /* font-size: clamp(1.5rem, 5vw, 2rem); */
+	font-weight: 400;
+	font-size: 1.72812rem;
+	color: #2e2e2e;
+}
+
+img {
+	display: block;
+	margin: 1.25rem auto 1.25rem auto;
+	border-radius: 8px;
+}
+
+/* Additional styling */
+em {
+	color: #7cb9f2;
+	font-weight: bold;
+	font-style: normal;
+}
+
+u {
+	text-underline-offset: 3px;
+	text-decoration-thickness: 7px;
+}
+
+b {
+	font-weight: 500;
+}
+
+strong {
+	color: #fff;
+}
+
+@media screen and (max-width: 525px) {
+	#type {
+		text-align: left;
+		margin: 1.15rem 0;
+	}
+}
+
+@media screen and (max-width: 45em) {
+	.card {
+		max-width: 45rem;
+	}
+}

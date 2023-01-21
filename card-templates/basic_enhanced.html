@@ -1,0 +1,32 @@
+<div class="wrapper">
+    <div id="title">{{Title}}<br></div>
+    <div id="type">{{Subject}} / info</div>
+    <hr> <br>
+    <div class="text">{{Front}}</div>
+</div>
+    
+<!-- <script>
+// document.getElementById("type").innerHTML = document.getElementById("type").innerHTML.replace("Javascript", "JavaScript");
+</script> -->
+
+<div class="wrapper">
+    <div id="title">{{Title}}</div><br>
+    <div id="type">{{Subject}} / info</div><hr><br>
+    <div class="text">{{Front}}</div><br>
+    <hr id="answer"><br>
+    <div class="text">
+            <div id="back">{{Back}}</div>
+    </div>
+</div>
+
+<script>
+    let back = document.querySelector('#back');
+    if ((back.innerText.trim() === "" && back.innerHTML.indexOf("<img") == -1) || (!back.innerText && back.innerHTML.indexOf("<img") == -1)) {
+          let i = document.createElement('i');
+        i.textContent = "END OF NOTE";
+        back.appendChild(i);
+    }
+    // Replace "Javascript" with "JavaScript"
+    // document.getElementById("type").innerHTML = document.getElementById("type").innerHTML.replace("Javascript", "JavaScript");
+</script>
+    

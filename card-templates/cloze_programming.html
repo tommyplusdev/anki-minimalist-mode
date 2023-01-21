@@ -1,0 +1,69 @@
+<!-- Front Side -->
+<div class="wrapper">
+  <div class="contents">
+      <div id="title">
+          {{Title}}
+          <div id="type">{{Code Language}} / cloze-programming</div>
+          <hr>
+      </div>
+      <div id="text">{{Text}}</div>
+      <div id="codeBlock">{{type:cloze:Code}}</div>
+      {{#Hint}}
+          <div id="hintBlock">{{hint:Hint}}</div>
+      {{/Hint}}
+  </div>
+</div>
+
+<script>
+  // replace "Javascript" with "JavaScript"
+  // document.getElementById("title").innerHTML = document.getElementById("title").innerHTML.replace("Javascript", "JavaScript");
+  
+  document.querySelector('.hint').addEventListener('click', showHint);
+  
+  function showHint() {
+    const hintBlock = document.querySelector('#hintBlock');
+    
+    // Check if hintBlock element exists
+    if (hintBlock) {
+      hintBlock.style.backgroundColor = '#aef745';
+      hintBlock.style.color = '#000';
+    }
+  
+    // Check if element with class "hint" exists
+    const hint = document.querySelector('div.hint');
+    if (hint) {
+      hint.innerText = "ⓘ" + " " + hint.innerText;
+    }
+  }
+  
+</script>
+
+<!-- Back Side -->
+<div class="wrapper">
+  <div id="title">
+    {{Title}}
+    <div id="type">{{Code Language}} / cloze-programming</div>
+    <hr>
+  </div>
+  
+  <div id="text">{{Text}}</div>
+  <div id="codeBlock">{{cloze:Code}}</div>
+  
+  <h2>Syntax</h2>
+  <div id="syntaxBlock">{{Syntax}}</div>
+  <div id="backExtra">{{Back Extra}}</div>
+</div>
+
+<script>
+
+  if (document.querySelector('#syntaxBlock').innerText == " " || !document.querySelector('#syntaxBlock').innerText) {
+    document.querySelector('#syntaxBlock').style.display = 'none';
+    document.querySelector('h2').style.display = 'none';
+  }
+  
+  
+  // replace "Javascript" with "JavaScript"
+  // document.getElementById("title").innerHTML = document.getElementById("title").innerHTML.replace("Javascript", "JavaScript");
+  
+</script>
+  
