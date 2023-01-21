@@ -130,5 +130,17 @@ I know, but, this makes use of the default Anki formatting hotkeys to make your 
 <!-- ## More Previews
 <img width="300" alt="CleanShot 2023-01-18 at 02 03 10@2x" src="https://user-images.githubusercontent.com/116316499/213111860-d981f653-5ce3-4926-ab79-25aa853e4f2f.png"> -->
 
+## Recommended Workflow
+Use as many Q&A or Cloze Enhanced cards. Cloze Programming are immensely useful for recalling the patterns and syntax of code.
+While making the same subject and titled cards (i.e. Subject: JavaScript, Title: Object-Oriented Programming), you can toggle on the Pin icon so it "sticks" across multiple cards.
+
+While reading programming books and articles, you can make these recall Anki cards as you go, saving you time studying.
+
+Evidently, it can still be hard to make high quality cards even with easy templates. That's why I've decided to include the `Edit Field During Review Cloze` add-on: it's highly likely that after a few recalls and/or a couple days later when you are more comfortable with the topic, you have better ways to phrase or add more to your Anki cards. 
+
+Even if you don't immediately understand your own cards from review, you'll eventually come to understand it through sheer repetition and more exposed input from multiple resources you come across.
+
+Happy Anki'ing!
+
 ## Disclaimer
 If you are planning to use these fonts elsewhere, please be sure to review the fonts' licenses for commercial use. This is for Personal Use.
