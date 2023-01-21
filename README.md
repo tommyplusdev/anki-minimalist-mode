@@ -93,7 +93,7 @@ Drag and Drop the the plugin folder (`1210908941`) into your Anki Plugins folder
 
 4. Open Anki Preferences and change the UI Scaling to what you prefer. I recommend having a scaling of `135%`.
 
-* Optionally: Get the "dotted" font for the Cloze Programming Cards from: https://fontstruct.com/fontstructions/show/2095104/nothing-font-5x7
+* Optionally: Install the Fonts from the Font folder!
 
 Done ✅
 
@@ -131,3 +131,6 @@ I know, but, this makes use of the default Anki hotkeys to make your life easier
 
 <!-- ## More Previews
 <img width="300" alt="CleanShot 2023-01-18 at 02 03 10@2x" src="https://user-images.githubusercontent.com/116316499/213111860-d981f653-5ce3-4926-ab79-25aa853e4f2f.png"> -->
+
+## Disclaimer
+If you are planning to use these fonts elsewhere, please be sure to review the fonts' licenses for commercial use. This is for Personal Use.
