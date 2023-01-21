@@ -23,7 +23,7 @@ table {
 
 button {
     box-sizing: border-box !important;
-    font-family: "Helvetica Neue", "Helvetica", sans-serif !important;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif !important;
     font-weight: 500;
     height: 6rem;
     width: 6rem;

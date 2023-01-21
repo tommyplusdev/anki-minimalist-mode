@@ -43,7 +43,7 @@ a.deck {
 
 a.deck,
 th {
-	font-family: "Inter", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Inter","Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif !important;
 	font-weight: 500;
 }
 
@@ -94,7 +94,7 @@ center#outer {
 
 button {
     box-sizing: border-box !important;
-    font-family: "Untitled Sans", "Helvetica Neue", "Helvetica", sans-serif !important;
+		font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif !important;
     font-weight: 400;
     max-height: 5rem;
     max-width: 5rem;
