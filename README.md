@@ -95,6 +95,60 @@ Drag and Drop the the plugin folder (`1210908941`) into your Anki Plugins folder
 
 Done ✅
 
+## I have a bunch of Old Cards that don't follow this format!
+Good news, the new cards are **Backwards Compatible!**
+
+If you've been using "Basic Type" cards or "Cloze Type" this whole time, they will work when you convert them to the newer versions.
+
+> (Old Type -> New Type)
+>
+> Basic -> `Basic Enhanced`
+>
+> Basic -> `qa Question Answer` (if you made your Front and Back sides a question and answer).
+>
+> Cloze -> `Cloze Enhanced`
+
+Here's how to do it:
+
+<details>
+<summary> 🖼️ Step 1: Open up the deck browser </summary>
+
+<img width="533" alt="CleanShot 2023-01-23 at 01 04 54@2x" src="https://user-images.githubusercontent.com/116316499/214167259-fb6b7d73-5a1e-48c0-adc8-bdf29d64cf60.png">
+
+</details>
+
+<details>
+<summary> 🖼️ Step 2: Filter by note type</summary>
+
+![CleanShot 2023-01-23 at 01 04 34@2x](https://user-images.githubusercontent.com/116316499/214167653-eb40693b-cdc6-42e1-9e5c-38b71895c84a.png)
+
+</details>
+
+<details>
+<summary> 🖼️ Step 3: Right-click > Notes > Change Note Type </summary>
+
+![CleanShot 2023-01-23 at 01 07 48@2x](https://user-images.githubusercontent.com/116316499/214168082-763eddcc-4613-4f79-add8-78c12e363073.png)
+
+</details>
+
+<details>
+<summary> 🖼️ Step 4: Change the Card Type and Fields to carry over</summary>
+
+![CleanShot 2023-01-23 at 01 12 05@2x](https://user-images.githubusercontent.com/116316499/214168589-687a3bc5-adf9-4fd9-8468-35a562256d1a.png)
+
+</details>
+
+As usual, test out on one card to see which style fits best for your current content.
+
+Tip: To select multiple cards, hold <kbd>Shift</kbd>, click a card, and another card, then all cards from the original to the last selected will be selected like so:
+
+<details>
+<summary> 🖼️ Tip example</summary>
+
+<img width="888" alt="CleanShot 2023-01-23 at 01 15 00@2x" src="https://user-images.githubusercontent.com/116316499/214169603-06c674fd-e54c-4316-913a-fa7fa71a5273.png">
+
+</details>
+
 ## Syntax Rules
 While in the Card Editor, here's three basic things to know:
 
@@ -127,6 +181,13 @@ I know, but, this makes use of the default Anki formatting hotkeys to make your 
 
 </details>
 
+## I just want the UI and follow my own card templates.
+No problem! You'll just need the first add-on, `Custom Background Image and Gear Icon`.
+
+To make sure your Cards have the _same_ background color as the UI, please edit your Card, and visit the CSS section:
+
+Enter in `background: #121212 !important` so it will override any existing styles from the default Anki style or other plugins you may have.
+
 <!-- ## More Previews
 <img width="300" alt="CleanShot 2023-01-18 at 02 03 10@2x" src="https://user-images.githubusercontent.com/116316499/213111860-d981f653-5ce3-4926-ab79-25aa853e4f2f.png"> -->
 
@@ -141,6 +202,23 @@ Evidently, it can still be hard to make high quality cards even with easy templa
 Even if you don't immediately understand your own cards from review, you'll eventually come to understand it through sheer repetition and more exposed input from multiple resources you come across.
 
 Happy Anki'ing!
+
+## Known issue(s):
+
+> There's a random space background that showed up when I installed the add-on.
+
+There is a **new update** that addresses this issue with a `config.json` that auto-configures _that_ add-on, which is `Custom Background Image and Gear Icon`. By default, it does indeed have that background and icons.
+
+But, if for some reason, the `config.json` isn't loaded in, you can disable it manually by visiting the Add-on Configuration, then remove the path to the background and enter in `gears.svg` as the icon pack.
+
+<details>
+<summary> 🖼️ Here's a quick preview on how that would look like. </summary>
+
+![CleanShot 2023-01-23 at 18 01 20@2x](https://user-images.githubusercontent.com/116316499/214171893-62c4785c-44a6-4040-9cba-da7ab45d0fc4.png)
+
+</details>
+
+Please let me know if the `config.json` doesn't work for you, by leaving a comment on the current Issue #2. Thank you!
 
 ## Disclaimer
 If you are planning to use these fonts elsewhere, please be sure to review the fonts' licenses for commercial use. This is for Personal Use.
