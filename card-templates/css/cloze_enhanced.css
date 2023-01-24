@@ -4,7 +4,7 @@
     background-color: transparent;
   }
   
-  .backExtraBlock {
+.backExtraBlock {
       font-family: "JetBrains Mono NL", Consolas,Menlo,Monaco,monospace;
       font-size: 0.9rem !important;
       line-height: 1.2 !important;
@@ -16,30 +16,48 @@
       max-width: 35rem;
       margin: 0 auto;
       padding: 1.7rem;
-  }
+ }
+
+.backExtraBlockImgAndText {
+	padding: 1.7rem !important;
+    background-color: #333333 !important;
+    color: white !important;
+}
   
-  .hidden {
+.hidden {
       display: none !important;
       visibility: hidden;
   }
+
+.backExtraImg {
+	padding: 0 !important;
+	background-color: transparent !important;
+	max-width: 45rem !important;
+	margin: 0 !important;
+}
+
+.backExtraIElements {
+		background: white !important;
+		color: white !important;
+}
   
-  hr#answer {
+hr#answer {
       margin-top: 2rem;
   }
   
-  html {
+html {
       min-height: 100%;
       display:flex;
       justify-content:center;
       align-items:center;
   }
   
-  .night_mode i {
-      font-family: "JetBrains Mono NL", 				Consolas,Menlo,Monaco,monospace;
+.night_mode i {
+    font-family: "JetBrains Mono NL", 				Consolas,Menlo,Monaco,monospace;
   
     /* regular */
-          /* color: #D7FF4A !important; */
-          /* background: #6b57ff; */
+    /* color: #D7FF4A !important; */
+    /* background: #6b57ff; */
       
     color: black;
     background: white;
@@ -55,7 +73,7 @@
   
   
   /* if <i> code is inside of cloze */
-  .night_mode .cloze:nth-of-type(n) i {
+.night_mode .cloze:nth-of-type(n) i {
     font-family: "JetBrains Mono NL", 				Consolas,Menlo,Monaco,monospace;
     color: black;
     background: none;
@@ -70,46 +88,46 @@
   
   /* if <i> element is inside extra block */
   
-  .night_mode .backExtraBlock i {
+.night_mode .backExtraBlock i {
       background: #333333;
       color: white;
       /* line-height: 1.4rem; */
       line-height: 2rem;
-  }
+}
   
-  .night_mode #title, 
-  .night_mode h2 {
+.night_mode #title, 
+.night_mode h2 {
       color: white;
-  }
-  body {
+}
+body {
      background: #121212 !important;
-  }
+}
   
-  .night_mode b {
+.night_mode b {
       color: #aef745;
-  }
+}
   
-  .night_mode hr {
+.night_mode hr {
       background-color: rgba(255, 255, 255, 0.12) !important;
-  }
+}
   
-  .night_mode code {
+.night_mode code {
     background-color:#1e293d
-  }
+}
   
-  .night_mode .wrapper {
+.night_mode .wrapper {
     box-sizing: border-box !important;
     margin-top: 1rem;
     background: #1e1e1e;
     padding: 3.5rem 1.5rem;
     border-radius: 8px;
-  }
+}
   
-  .night_mode . {
+.night_mode . {
   background-color: black;
-  }
+}
   
-  .night_mode .cloze:nth-of-type(n) {
+.night_mode .cloze:nth-of-type(n) {
     color: black;
     background: #C6FF00;
     font-weight: regular;
@@ -119,14 +137,14 @@
     border-radius: .13em;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-  }
+}
   
-  #type {
+#type {
       font-size: 0.8rem;
       text-align: right;
-  }
+}
   
-  .card {
+.card {
     font-family: "Untitled Sans", "Segoe UI", "Helvetica Neue", "Helvetica", "Open Sans","Lucida Sans", arial, sans-serif;
 	font-weight: 300;
 	font-weight: 400;
@@ -140,61 +158,60 @@
 	hyphens: auto;
 }
   
-  #text {
+#text {
    line-height: 2.75rem !important;
-  }
+}
   
-  .cloze:nth-of-type(n) {
+.cloze:nth-of-type(n) {
       color: white;
       background: #666666;
       padding: 0.35rem 0.25rem;
       font-weight: 500; 
-  }
+}
   
   
-  #title {
+#title {
     font-family: "Tiempos Headline", "iA Writer Quattro V", "Baskerville", "Garamond", serif;
     font-size: clamp(1.5rem, 5vw, 2rem);
     /* font-size: 1.72812rem; */
     font-weight: 400;
     color: #2e2e2e;
-  }
+}
   
-  img {
+img {
       /* padding: 0 1rem !important; */
       display: block;
       margin: 0 auto;
       border-radius: 8px;
-  }
+}
   
   /* Additional styling */
-  em {
+em {
       font-weight: bold;
-  }
+}
   
-  u {
+u {
       text-underline-offset: 3px;
       text-decoration-thickness: 7px;
-  }
+}
   
-  b {
+b {
       font-weight: 500;
-  }
+}
   
-  strong {
+strong {
       color: #fff;
-  }
+}
   
-  @media screen and (max-width: 525px) {
-      #type {
-          text-align: left;
-          margin: 1.15rem 0;
-      }
-  }
+@media screen and (max-width: 525px) {
+    #type {
+        text-align: left;
+        margin: 1.15rem 0;
+    }
+}
   
-  @media screen and (max-width: 45em) {
-      .card {
-          max-width: 45rem;
-      }
-  }
-  
+@media screen and (max-width: 45em) {
+    .card {
+        max-width: 45rem;
+    }
+}

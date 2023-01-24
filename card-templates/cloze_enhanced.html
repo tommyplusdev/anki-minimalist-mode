@@ -30,35 +30,28 @@ document.querySelector("#ansbut").addEventListener(click, document.querySelector
 </div>
 
 <script>
-    let backExtra = document.getElementById('backExtra');
-    let answer = document.getElementById('answer');
+    let backExtra = document.querySelector('#backExtra');
+    let answer = document.querySelector('#answer');
     let backExtraBlockCode = document.querySelectorAll('.backExtraBlock i');
     
-    if (!backExtra.textContent) {
+    // check if nothing is written on the back side
+    if (!backExtra.textContent.trim()) {
         answer.classList.add('hidden');
         backExtra.classList.add('hidden');
     }
     
-    if (backExtra.getElementsByTagName("img").length > 0) {
-          answer.classList.remove('hidden');
+    // check if img exists
+    if (backExtra.querySelectorAll("img").length > 0) {
+            answer.classList.remove('hidden');
             backExtra.classList.remove('hidden');
-            backExtra.style.padding = '0';
-            backExtra.style.backgroundColor = 'transparent';
-            backExtra.style.maxWidth = '45rem';
-            backExtra.style.margin = '0';
+						 backExtra.classList.add('backExtraImg');
     }
     
-    if (backExtra.getElementsByTagName("img").length > 0 && backExtra.textContent) {
-            backExtra.style.backgroundColor = '#333333';
-            backExtra.style.padding = '1.7rem';
-            backExtra.style.color = 'white';
+    //check if img exists and if there is any text on the back
+    if (backExtra.querySelectorAll("img").length > 0 && backExtra.textContent) {
+            backExtra.classList.add('backExtraBlockImgAndText');
             for (let i = 0; i < backExtraBlockCode.length; i++) {
-                backExtraBlockCode[i].style.background = 'white';
-                backExtraBlockCode[i].style.color = 'black';
-            }
+								backExtraBlockCode[i].classList.add('backExtraIElements');
     }
-    
-    // Replace "Javascript" with "JavaScript"
-    // document.getElementById("type").innerHTML = document.getElementById("type").innerHTML.replace("Javascript", "JavaScript");
-    
-    </script>
+ 	}
+</script>
